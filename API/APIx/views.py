@@ -12,8 +12,7 @@ def endpoint_view(request):
     utc_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Define GitHub repository information
-    github_username = 'your_username'
-    github_repo = 'your_repo'
+    github_username = 'username'         github_repo = 'reponame'
     github_file = 'views.py'  # Change this to the filename of your view
 
     # Construct JSON response
